@@ -1,0 +1,40 @@
+:root {
+  /* Main colors */
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  /* Additional colors */
+  --header-logo-color: #000000;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Inherited prorerties */
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+/* Logo "Web" */
+.logo > span {
+  color: var(--accent-color);
+}
+/* Logo "Studio" */
+header .logo {
+  color: var(--header-logo-color);
+}
+footer > .logo {
+  color: var(--primary-white-color);
+}
+
+/* Navigation */
+.nav-link {
+  color: var(--secondary-text-color);
+}
+.nav-link.current {
+  color: var(--accent-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
