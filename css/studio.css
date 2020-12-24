@@ -1,0 +1,52 @@
+/* Standard section title */
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--footer-background-color);
+  color: var(--primary-white-color);
+}
+.hero > h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.hero > button {
+  color: inherit;
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* Feautures */
+.feautures h3 {
+  font-size: inherit;
+  text-transform: uppercase;
+}
+.feautures p {
+  line-height: 1.71;
+}
+
+/* Team */
+.team {
+  background-color: var(--team-background-color);
+}
+.team-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-list p {
+  font-size: 16px;
+  line-height: 1.19;
+}
