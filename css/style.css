@@ -4,11 +4,11 @@
   --primary-white-color: #ffffff;
   --primary-text-color: #757575;
   --title-text-color: #212121;
+  --secondary-background-color: #f5f4fa;
   /* Additional colors */
   --header-logo-color: #000000;
-  --footer-background-color: #2f303a;
   --footer-address-color: rgba(255, 255, 255, 0.6);
-  --team-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
 }
 
 /* List reset */

@@ -39,7 +39,7 @@
 
 /* Team */
 .team {
-  background-color: var(--team-background-color);
+  background-color: var(--secondary-background-color);
 }
 .team-list h3 {
   font-weight: 500;

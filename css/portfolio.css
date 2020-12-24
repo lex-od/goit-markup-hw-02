@@ -1,0 +1,25 @@
+/* Portfolio */
+.portfolio-tabs button {
+  background-color: var(--secondary-background-color);
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.portfolio-tabs button:hover,
+.portfolio-tabs button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.portfolio-list h2 {
+  color: var(--title-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-list p {
+  font-size: 16px;
+  line-height: 1.88;
+}
