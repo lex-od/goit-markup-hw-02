@@ -18,10 +18,12 @@
     <header>
       <nav>
         <!-- Logo -->
-        <a class="logo header" href="./index.html">Web<span>Studio</span></a>
+        <a class="logo-primary" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
 
         <!-- Navigation -->
-        <ul class="nav list">
+        <ul class="nav">
           <li><a class="nav-link" href="./index.html">Студия</a></li>
           <li>
             <a class="nav-link current" href="./portfolio.html">Портфолио</a>
@@ -31,9 +33,11 @@
       </nav>
 
       <!-- Contacts -->
-      <address class="addr header">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <address class="addr-primary">
+        <a class="addr-link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="addr-link" href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </header>
 
@@ -42,11 +46,17 @@
         <h1>Портфолио</h1>
 
         <ul class="portfolio-tabs">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button class="portfolio-btn" type="button">Все</button></li>
+          <li>
+            <button class="portfolio-btn" type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button class="portfolio-btn" type="button">Приложения</button>
+          </li>
+          <li><button class="portfolio-btn" type="button">Дизайн</button></li>
+          <li>
+            <button class="portfolio-btn" type="button">Маркетинг</button>
+          </li>
         </ul>
 
         <ul class="portfolio-list">
@@ -56,8 +66,8 @@
               alt="Открытый сайт на ноутбуке"
               width="370"
             />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-name">Технокряк</h2>
+            <p class="portfolio-item">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -65,8 +75,8 @@
               alt="Два баскетболиста с мячом"
               width="370"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-name">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-item">Дизайн</p>
           </li>
           <li>
             <img
@@ -74,13 +84,13 @@
               alt="Логотип ресторана морепродуктов"
               width="370"
             />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-name">Ресторан Seafood</h2>
+            <p class="portfolio-item">Приложение</p>
           </li>
           <li>
             <img src="./images/portfolio-04.jpg" alt="Наушники" width="370" />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-name">Проект Prime</h2>
+            <p class="portfolio-item">Маркетинг</p>
           </li>
           <li>
             <img
@@ -88,8 +98,8 @@
               alt="Два разных бокса"
               width="370"
             />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-name">Проект Boxes</h2>
+            <p class="portfolio-item">Приложение</p>
           </li>
           <li>
             <img
@@ -97,8 +107,8 @@
               alt="Включенный монитор"
               width="370"
             />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-name">Inspiration has no Borders</h2>
+            <p class="portfolio-item">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -106,8 +116,8 @@
               alt="Открытый журнал"
               width="370"
             />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-name">Издание Limited Edition</h2>
+            <p class="portfolio-item">Дизайн</p>
           </li>
           <li>
             <img
@@ -115,8 +125,8 @@
               alt="Стильная белая бирка"
               width="370"
             />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-name">Проект LAB</h2>
+            <p class="portfolio-item">Маркетинг</p>
           </li>
           <li>
             <img
@@ -124,8 +134,8 @@
               alt="Человек работает за ноутбуком"
               width="370"
             />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-name">Growing Business</h2>
+            <p class="portfolio-item">Приложение</p>
           </li>
         </ul>
       </section>
@@ -133,13 +143,17 @@
 
     <footer>
       <!-- Logo -->
-      <a class="logo footer" href="./index.html">Web<span>Studio</span></a>
+      <a class="logo-secondary" href="./index.html"
+        >Web<span class="logo-part">Studio</span></a
+      >
 
       <!-- Contacts -->
-      <address class="addr footer">
+      <address class="addr-secondary">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="addr-link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="addr-link" href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>

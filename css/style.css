@@ -6,8 +6,8 @@
   --title-text-color: #212121;
   --secondary-background-color: #f5f4fa;
   /* Additional colors */
-  --header-logo-color: #000000;
-  --footer-address-color: rgba(255, 255, 255, 0.6);
+  --logo-black-color: #000000;
+  --addr-black-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
 }
 
@@ -20,7 +20,7 @@ h2,
 h3 {
   color: var(--title-text-color);
 }
-/* Body initialization */
+/* Body init */
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -30,9 +30,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
+/* Footer init */
+footer {
+  background-color: var(--footer-background-color);
+}
 
 /* Logo */
-.logo {
+.logo-primary,
+.logo-secondary {
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
@@ -41,10 +46,10 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo.header > span {
-  color: var(--header-logo-color);
+.logo-primary > .logo-part {
+  color: var(--logo-black-color);
 }
-.logo.footer > span {
+.logo-secondary > .logo-part {
   color: var(--primary-white-color);
 }
 
@@ -65,31 +70,26 @@ body {
 }
 
 /* Contacts */
-.addr.header > a {
-  color: inherit;
+.addr-primary > .addr-link {
+  color: var(--primary-text-color);
 
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
 }
-.addr.header > a:hover,
-.addr.header > a:focus {
+.addr-primary > .addr-link:hover,
+.addr-primary > .addr-link:focus {
   color: var(--accent-color);
 }
-.addr.footer {
+.addr-secondary {
   color: var(--primary-white-color);
 
   font-style: normal;
   line-height: 1.71;
 }
-.addr.footer > a {
-  color: var(--footer-address-color);
+.addr-secondary > .addr-link {
+  color: var(--addr-black-color);
 
   text-decoration: none;
-}
-
-/* Footer main properties */
-footer {
-  background-color: var(--footer-background-color);
 }

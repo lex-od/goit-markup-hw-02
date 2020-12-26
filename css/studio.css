@@ -8,9 +8,10 @@
 /* Hero */
 .hero {
   background-color: var(--footer-background-color);
-  color: var(--primary-white-color);
 }
-.hero > h1 {
+.hero-title {
+  color: var(--primary-white-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -18,8 +19,8 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-.hero > button {
-  color: inherit;
+.hero-btn {
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 
   font-weight: 700;
@@ -29,11 +30,11 @@
 }
 
 /* Feautures */
-.feautures h3 {
-  font-size: inherit;
+.feauture-name {
+  font-size: 14px;
   text-transform: uppercase;
 }
-.feautures p {
+.feauture-item {
   line-height: 1.71;
 }
 
@@ -41,12 +42,12 @@
 .team {
   background-color: var(--secondary-background-color);
 }
-.team-list h3 {
+.team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.team-list p {
+.team-position {
   font-size: 16px;
   line-height: 1.19;
 }
